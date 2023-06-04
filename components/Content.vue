@@ -9,7 +9,7 @@ import { VueTyper } from "vue-typer";
       <vue-typer
         text="I'M ADENKEKAN WONDERFUL"
         class="vue-typer flex justify-center text-white text-5xl font-mono"
-        repeat="0"
+        repeat="3"
       ></vue-typer>
     </div>
     <!-- </h1> -->
