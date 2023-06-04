@@ -1,8 +1,9 @@
 <script setup></script>
 
 <template>
-  <div>
+  <div class="w-screen min-h-screen bg-black">
     <cursor-fx color="white" color-hover="#acf98e"></cursor-fx>
-    <Content />
+    <Header />
+    <nuxt />
   </div>
 </template>
