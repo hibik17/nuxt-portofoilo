@@ -7,9 +7,10 @@ import { VueTyper } from "vue-typer";
     <!-- <h1 class="font-bold text-center font-mono text-5xl"> -->
     <div class="w-full">
       <vue-typer
-        text="I'M ADENKEKAN WONDERFUL"
-        class="vue-typer flex justify-center text-white text-5xl font-mono"
+        text="NICE TO MEET YOU I'M HIBIKI"
+        class="flex justify-center text-5xl font-mono typed typed typed"
         repeat="3"
+        caret-animation="smooth"
       ></vue-typer>
     </div>
     <!-- </h1> -->
@@ -17,11 +18,7 @@ import { VueTyper } from "vue-typer";
 </template>
 
 <style>
-.vue-typer {
-  color: white;
-  display: flex;
-  justify-content: center;
-  font-size: 60px;
-  font-style: monospace;
+.typed {
+  color: white !important;
 }
 </style>
